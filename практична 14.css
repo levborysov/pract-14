@@ -1,0 +1,44 @@
+.background {
+    width: 80%;
+    height: 700px;
+    background-image: url('фон.jfif');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background p {
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+h1 {
+    font-family:"Rubik Doodle Shadow", system-ui;
+}
+.left {
+    float: left;
+    width: 300px;
+    margin-left: 50px;
+}
+.right {
+    float: right;
+    width: 300px;
+    margin-right: 50px;
+}
+.hover-img {
+    width: 300px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Плавність анімації */
+    border-radius: 10px; /* Трохи заокруглимо кути для краси */
+    cursor: pointer;
+}
+.hover-img:hover {
+    transform: scale(1.1); /* Збільшення на 10% */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Темна тінь */
+}
+.effect-container {
+    padding: 50px;
+    text-align: center;
+}
